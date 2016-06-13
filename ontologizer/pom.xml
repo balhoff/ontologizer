@@ -269,6 +269,7 @@
 						<phase>package</phase>
 						<configuration>
 							<excludePackageNames>att.*,java_cup.*</excludePackageNames>
+							<additionalparam>-Xdoclint:none</additionalparam>
 						</configuration>
 					</execution>
 				</executions>
